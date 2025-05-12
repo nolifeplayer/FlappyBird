@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4005842378273316260}
   - component: {fileID: -6451874269251201392}
   - component: {fileID: -1642991992503805987}
+  - component: {fileID: -2833470724291079020}
   m_Layer: 0
   m_Name: Red_Bird_1
   m_TagString: Untagged
@@ -104,7 +105,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!58 &-1642991992503805987
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -121,3 +122,16 @@ CircleCollider2D:
   m_Offset: {x: 0.004199967, y: 0.003149867}
   serializedVersion: 2
   m_Radius: 0.1465535
+--- !u!114 &-2833470724291079020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005842378273316283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc313a94bd55141fab3a56d0f74e1783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreUI: {fileID: 0}
