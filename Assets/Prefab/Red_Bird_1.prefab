@@ -134,4 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc313a94bd55141fab3a56d0f74e1783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverText: {fileID: 0}
   scoreUI: {fileID: 0}
+  isAlive: 0
+  pointSound: {fileID: 8300000, guid: e0c57d823af08403cbde85d016d79eae, type: 3}
+  dieSound: {fileID: 8300000, guid: 15626308f8ceb4f3890df9cbb183a3ef, type: 3}
+  flapSound: {fileID: 8300000, guid: f03a54bd937f84bc2b9f795db51b532b, type: 3}
+  swooshSound: {fileID: 8300000, guid: efbeed3de159041b18b70c749200e129, type: 3}
+  hitSound: {fileID: 8300000, guid: f8ead10046bfb49d3b9103ea1bfb2218, type: 3}
